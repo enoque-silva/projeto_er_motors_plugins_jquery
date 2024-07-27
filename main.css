@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* --------------------- */
+
+html{
+    overflow-x: hidden;
+}
+
+.conteiner{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;  
+}
+
+header{
+    background-color: #f5f5f7;
+    padding-top: 8px;
+    color: #c60003;
+}
+
+header > .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+header h1{
+    font-size: 34px;
+}
+
+.menu-hamburguer{
+    width: 28px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span{
+    height: 3px;
+    display: block;
+    background-color: #c60003;
+}
+
+.menu-hamburguer span+span{
+    margin-top: 4px;}
+
+nav{
+    background-color: #c60003;
+    padding: 17px 0;
+    display: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #c60003 ;
+    z-index: 1;
+}
+
+header nav li{    
+    list-style: none;
+    display: inline;
+    font-size: 17px;
+    font-weight: 500; 
+    /* text-transform: uppercase; */
+}
+
+header nav li+li{
+    margin-left: 17px;
+}
+
+header li a{    
+    color: white; 
+    text-decoration: none;
+}
+
+.conteiner-flex {
+    display: flex;
+}
+
+#sobre-a-loja img{
+    max-width: 400px 200px;
+    margin-right: 24px;
+    overflow: hidden;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 34px;
+    font-size: 28px;
+    color: #c60003;
+}
+
+section p {
+    margin-bottom: 4px;
+}
+
+.lista-veiculos{
+    flex-wrap: wrap;
+    gap: 13px; 
+}
+
+.lista-veiculos li {
+    list-style: none;    
+    max-width: calc(33.333% - 10px);
+    margin-bottom: 17px;
+}
+
+.lista-veiculos img {
+    width: 100%;
+}
+
+.lista-veiculos li h3 {
+    margin: 16px 0;
+}
+
+#em-destaque strong {
+    margin: 17px 0;
+    display: block; 
+    font-size: 21px;   
+}
+
+.price {
+    margin: 17px 0;
+    display: block; 
+    font-size: 21px;   
+}
+
+.price del{
+    color: #ccc;
+    font-size: 14px;
+    display: block;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #c60003;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form{
+    max-width: 360px;
+}
+
+.campo-formulario{
+    margin-bottom: 16px;
+}
+
+.campo-formulario label{
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+}
+
+.campo-formulario input, .campo-formulario textarea{
+    width: 100%;
+    padding: 8px;
+}
+
+.campo-formulario textarea{
+    resize: none;
+    height: 120px;
+}
+
+footer{
+    background-color: #c60003;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+footer .conteiner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    display: flex; 
+    padding: 13px;   
+}
+
+footer li{
+    list-style: none;
+    margin: 0px 8px;
+    
+    
+}
+
+footer img{    
+    height: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
